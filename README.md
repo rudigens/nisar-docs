@@ -4,9 +4,13 @@ Source for the public documentation of the NASA-ISRO Synthetic Aperture Radar (N
 
 ## Contributing
 
-1. Install [MyST Markdown](https://mystmd.org/guide/) in a Python environment of your choice via `conda install -c conda-forge mystmd`
 1. Create a fork of https://github.com/ua-asf/nisar-docs/
 1. Clone the repository and navigate to the repository root
+1. Create and activate the conda environment
+    ```
+   mamba env create -f environment.yml
+   mamba activate nisar-docs
+    ```
 1. Run `myst start` to render the website on your local machine
 1. Configure previewing via GitHub Pages (optional)
    1. Enable GitHub Actions for your fork
