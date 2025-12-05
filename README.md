@@ -14,12 +14,18 @@ Source for the public documentation of the NASA-ISRO Synthetic Aperture Radar (N
    1. Enable GitHub Actions for your fork
       <details>
       <summary>screenshot</summary>
-      <img src="images/readme_enable_actions.png" alt="screenshot of enabling GitHub Actions" />
+      ![screenshot of enabling GitHub Actions](images/readme_enable_actions.png)
       </details>
    1. Enable GitHub Pages for your fork with Source = GitHub Actions
+      <details>
+      <summary>screenshot</summary>
       ![screenshot of enabling GitHub Actions](images/readme_enable_pages.png)
+      </details>
    1. Create a `BASE_URL` variable for GitHub Actions with a value of `/nisar-docs` (including the leading `/`)
+      <details>
+      <summary>screenshot</summary>
       ![screenshot of enabling GitHub Actions](images/readme_base_url_variable.png)
+      </details>
    1. Push changes to your `main` branch
    1. Preview the rendered site at `https://{github_user_id}.github.io/nisar-docs/`
 
