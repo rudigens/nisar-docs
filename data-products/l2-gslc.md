@@ -1,4 +1,10 @@
-# L2 GSLC
+---
+short_title: GSLC
+---
+# Geocoded Single Look Complex (GSLC)
+
+{button}`Product Specification <https://nisar.asf.earthdatacloud.nasa.gov/NISAR-SAMPLE-DATA/DOCS/NISAR_D-102269_RevE_NASA_SDS_Product_Specification_L2_GSLC_Nov8_2024_w-sigs.pdf>`
+{button}`Find Data <https://search.asf.alaska.edu/#/?dataset=NISAR&sciProducts=GSLC>`
 
 The GSLC product is a Level 2 product derived from the Level-1 RSLC product by geocoding the input RSLC into a map coordinate system such as a UTM Zone or Polar stereographic projection system. 
 

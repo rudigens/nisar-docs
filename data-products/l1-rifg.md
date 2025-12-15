@@ -1,4 +1,10 @@
-# L1 RIFG
+---
+short_title: RIFG
+---
+# Range Doppler Wrapped Interferogram (RIFG)
+
+{button}`Product Specification <https://nisar.asf.earthdatacloud.nasa.gov/NISAR-SAMPLE-DATA/DOCS/NISAR_D-102270_RevD_NASA_SDS_Product_Specification_L1_RIFG_w-sigs.pdf>`
+{button}`Find Data <https://search.asf.alaska.edu/#/?dataset=NISAR&sciProducts=RIFG>`
 
 The RIFG product represents the ellipsoid and topography flattened wrapped interferogram generated from two L1 range-Doppler Single Look Complex (RSLC) products in the range-Doppler geometry of the earlier reference acquisition. The WGS84 ellipsoid is used as the reference surface for flat earth correction. 
 
