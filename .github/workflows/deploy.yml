@@ -43,7 +43,7 @@ jobs:
 
       - run: |
           myst build --html
-          sed -i -e "s|http://localhost:3000|$CUSTOM_DOMAIN|g" $(grep -RIl "http://localhost:3000" ./_build)
+          sed -i -e "s|http://localhost:3000|$CUSTOM_DOMAIN$BASE_URL|g" $(grep -RIl "http://localhost:3000" ./_build)
 
       - uses: actions/upload-pages-artifact@v4
         with:
